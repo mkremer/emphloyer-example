@@ -20,13 +20,13 @@ Set the following environmental variables:
 
 With bash you would execute:
 
-   export DB\_USER=username
-   export DB\_PWD=password
-   export WORKERS=2
+    export DB\_USER=username
+    export DB\_PWD=password
+    export WORKERS=2
 
 To initialize the test database run:
 
-   php init.php
+    php init.php
 
 The init script drops the test tables and then re-creates them. It then proceeds
 to insert 1000 jobs.
@@ -35,12 +35,12 @@ to insert 1000 jobs.
 
 To run the example simply run (from the project root):
 
-   vendor/bin/emphloyer -c config.php
+    vendor/bin/emphloyer -c config.php
 
 Once the output stops Emphloyer has finished processing jobs.
 
 The test jobs insert records into the things table, you can check how long the
 entire process took with:
 
-   select (max(created_at) - min(created_at)) as runtime from things;
+    select (max(created_at) - min(created_at)) as runtime from things;
 
