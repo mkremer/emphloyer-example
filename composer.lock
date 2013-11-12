@@ -1,0 +1,140 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "c373d86544b49fc0dae6da73b0033b7f",
+    "packages": [
+        {
+            "name": "apache/log4php",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git-wip-us.apache.org/repos/asf/logging-log4php.git",
+                "reference": "8c6df2481cd68d0d211d38f700406c5f0a9de0c2"
+            },
+            "require": {
+                "php": ">=5.2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/main/php/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "A versatile logging framework for PHP",
+            "homepage": "http://logging.apache.org/log4php/",
+            "keywords": [
+                "log",
+                "logging",
+                "php"
+            ],
+            "time": "2012-10-26 09:13:25"
+        },
+        {
+            "name": "mkrmr/emphloyer",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mkremer/emphloyer.git",
+                "reference": "2345dd1e52adb20b73dd9f5d93c4356de004b648"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mkremer/emphloyer/zipball/2345dd1e52adb20b73dd9f5d93c4356de004b648",
+                "reference": "2345dd1e52adb20b73dd9f5d93c4356de004b648",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcntl": "*",
+                "ext-posix": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "bin": [
+                "bin/emphloyer"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Emphloyer\\": "library"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Kremer",
+                    "email": "mark@5ec.nl"
+                }
+            ],
+            "description": "Job processing with pluggable backends made easy",
+            "time": "2013-11-11 18:05:18"
+        },
+        {
+            "name": "mkrmr/emphloyer-pdo",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mkremer/emphloyer-pdo.git",
+                "reference": "bde65f6cf551c1ed019d486f95c8671e49e31253"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mkremer/emphloyer-pdo/zipball/bde65f6cf551c1ed019d486f95c8671e49e31253",
+                "reference": "bde65f6cf551c1ed019d486f95c8671e49e31253",
+                "shasum": ""
+            },
+            "require": {
+                "lib-uuid": "1.0.*",
+                "mkrmr/emphloyer": "0.1.*"
+            },
+            "require-dev": {
+                "ext-pdo_mysql": "*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Emphloyer\\Pdo\\": "library"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Kremer",
+                    "email": "mark@5ec.nl"
+                }
+            ],
+            "description": "PDO backend for Emphloyer",
+            "time": "2013-11-08 08:33:14"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "lib-uuid": "1.0.*"
+    },
+    "platform-dev": [
+
+    ]
+}

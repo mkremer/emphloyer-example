@@ -1,0 +1,23 @@
+{
+    "name": "mkrmr/emphloyer-example",
+    "description": "Example use of Emphloyer with PDO",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Kremer",
+            "email": "mark@5ec.nl"
+        }
+    ],
+    "require": {
+        "mkrmr/emphloyer": "0.1.*",
+        "mkrmr/emphloyer-pdo": "0.1.*",
+        "lib-uuid": "1.0.*",
+        "apache/log4php": "2.3.0"
+    },
+    "autoload": {
+      "psr-0": {
+        "Emphloyer\\Example\\": "library"
+      }
+    }
+}
+
