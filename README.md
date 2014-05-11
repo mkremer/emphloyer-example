@@ -6,7 +6,7 @@ this to play around with it a bit.
 ## Setup
 
 The easiest way to get up and running is by using
-[Vagrant](https://vagrantup.com).
+[Vagrant](http://www.vagrantup.com/).
 
 If you cannot or do not want to use Vagrant you will need to ensure that you 
 have MySQL running on localhost and that the database emphloyer\_example exists.
