@@ -37,7 +37,8 @@ To initialize the test database run:
     php init.php
 
 The init script drops the test tables and then re-creates them. It then proceeds
-to insert 1000 jobs, 900 with type 'regular' and 100 with type 'priority'.
+to insert 100 jobs, 90 with type 'regular' and 10 with type 'priority'. It also
+sets up the scheduler to insert one priority job every minute.
 
 ## Running the example
 
