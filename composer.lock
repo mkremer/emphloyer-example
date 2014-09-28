@@ -1,7 +1,8 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
     "hash": "01157af253f02f097f0b16f063ffd471",
     "packages": [
@@ -37,16 +38,16 @@
         },
         {
             "name": "mkrmr/emphloyer",
-            "version": "v0.4.0",
+            "version": "v0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mkremer/emphloyer.git",
-                "reference": "c614163473d71217d259e8f10f7b804c48af0472"
+                "reference": "288020cdaca22751dad69dfa83f0dc67a89ed761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mkremer/emphloyer/zipball/c614163473d71217d259e8f10f7b804c48af0472",
-                "reference": "c614163473d71217d259e8f10f7b804c48af0472",
+                "url": "https://api.github.com/repos/mkremer/emphloyer/zipball/288020cdaca22751dad69dfa83f0dc67a89ed761",
+                "reference": "288020cdaca22751dad69dfa83f0dc67a89ed761",
                 "shasum": ""
             },
             "require": {
@@ -77,20 +78,20 @@
                 }
             ],
             "description": "Job processing with pluggable backends made easy",
-            "time": "2014-05-18 18:42:22"
+            "time": "2014-09-28 14:14:14"
         },
         {
             "name": "mkrmr/emphloyer-pdo",
-            "version": "v0.4.0",
+            "version": "v0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mkremer/emphloyer-pdo.git",
-                "reference": "128f05d654d94282f4d7fee6e7fb1ee9e9144983"
+                "reference": "5aabb4bfefb898358c302c0cc594f25dc40d2273"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mkremer/emphloyer-pdo/zipball/128f05d654d94282f4d7fee6e7fb1ee9e9144983",
-                "reference": "128f05d654d94282f4d7fee6e7fb1ee9e9144983",
+                "url": "https://api.github.com/repos/mkremer/emphloyer-pdo/zipball/5aabb4bfefb898358c302c0cc594f25dc40d2273",
+                "reference": "5aabb4bfefb898358c302c0cc594f25dc40d2273",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +119,7 @@
                 }
             ],
             "description": "PDO backend for Emphloyer",
-            "time": "2014-05-18 20:04:25"
+            "time": "2014-09-28 13:57:28"
         }
     ],
     "packages-dev": [
@@ -131,6 +132,7 @@
     "stability-flags": [
 
     ],
+    "prefer-stable": false,
     "platform": {
         "lib-uuid": "1.0.*"
     },
