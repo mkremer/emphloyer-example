@@ -29,4 +29,4 @@ EOF
   service mysql restart
 fi
 
-mysql -uroot -e 'CREATE DATABASE IF NOT EXISTS emphloyer_test'
+mysql -uroot -e 'CREATE DATABASE IF NOT EXISTS emphloyer_example'
