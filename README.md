@@ -27,10 +27,10 @@ Set the following environmental variables:
 
 With bash you would execute:
 
-    export DB\_USER=username
-    export DB\_PWD=password
-    export REGULAR\_WORKERS=2
-    export PRIORITY\_WORKERS=1
+    export DB_USER=username
+    export DB_PWD=password
+    export REGULAR_WORKERS=2
+    export PRIORITY_WORKERS=1
 
 To initialize the test database run:
 
