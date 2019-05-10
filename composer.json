@@ -14,8 +14,10 @@
     },
     "autoload": {
       "psr-0": {
-        "Emphloyer\\Example\\": "library"
+        "Emphloyer\\Example\\": "src"
       }
+    },
+    "require-dev": {
+        "doctrine/coding-standard": "^6.0"
     }
 }
-
