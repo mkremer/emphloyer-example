@@ -9,8 +9,7 @@
         }
     ],
     "require": {
-        "mkrmr/emphloyer-pdo": "0.4.*",
-        "lib-uuid": "1.0.*",
+        "mkrmr/emphloyer-pdo": "0.6.*",
         "apache/log4php": "2.3.0"
     },
     "autoload": {
